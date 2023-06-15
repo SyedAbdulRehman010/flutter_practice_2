@@ -1,0 +1,27 @@
+void main() {
+  int num = 15;
+
+  if (num % 2 == 0) {
+    print('The number is even.');
+
+    if (num % 3 == 0) {
+      print('The number is divisible by 3.');
+    } else {
+      print('The number is not divisible by 3.');
+    }
+  } else {
+    print('The number is odd.');
+  }
+}
+In this example, we have a variable num with a value of 15. We use nested if statements to perform multiple checks.
+
+The outer if statement checks if num is even by verifying if the remainder of dividing num by 2 is 0. If the condition is true, it prints "The number is even."
+Inside the first if block, there is another nested if statement. It checks if num is divisible by 3 by verifying if the remainder of dividing num by 3 is 0. If the condition is true, it prints "The number is divisible by 3." Otherwise, it prints "The number is not divisible by 3."
+If the outer if condition is false, meaning num is odd, it directly goes to the else block and prints "The number is odd."
+You can modify the value of num and observe the different outputs based on the conditions.
+
+
+
+
+
+
